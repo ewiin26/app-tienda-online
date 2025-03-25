@@ -7,7 +7,7 @@ export const routes: Routes = [
     {path:'', component: ListadoProductosComponent}, //localhost:4200/
     {path:'listado', component: ListadoProductosComponent},
     {path:'agregar', component: FormularioComponent},
-    {path:'editar/:id', component: FormularioComponent },
+    {path:'editar/:llave', component: FormularioComponent },
     // Ruta comodin para cualquier otra ruta no registrada
     {path: '**', component: ErrorComponent}
 ];
